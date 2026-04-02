@@ -30,21 +30,47 @@ jobs:
         with:
           fetch-depth: 1
 
+      - name: Project Setup
+        run: |
+          npm run setup
+          npx playwright install --with-deps chromium
+          npm run dev:daemon
+
       - name: Run Claude Code
         id: claude
         uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
 
+          prompt: |
+            A Playwright MCP server is running and available to you. Use it to visually validate your output:
+            - After making UI changes, take a screenshot with browser_take_screenshot to confirm the result looks correct.
+            - If the task involves interactive behavior, use browser_click and browser_type to exercise it.
+            - Use browser_console_messages to catch any runtime errors after rendering.
+            - Do not skip visual validation — confirm the component works in the browser before finishing.
+
           # This is an optional setting that allows Claude to read CI results on PRs
           additional_permissions: |
             actions: read
 
-          # Optional: Give a custom prompt to Claude. If this is not specified, Claude will perform the instructions specified in the comment that tagged it.
-          # prompt: 'Update the pull request description to include a summary of changes.'
-
-          # Optional: Add claude_args to customize behavior and configuration
-          # See https://github.com/anthropics/claude-code-action/blob/main/docs/usage.md
-          # or https://code.claude.com/docs/en/cli-reference for available options
-          # claude_args: '--allowed-tools Bash(gh pr:*)'
+          settings: |
+            {
+              "mcpServers": {
+                "playwright": {
+                  "command": "npx",
+                  "args": ["@playwright/mcp@latest", "--headless"]
+                }
+              },
+              "permissions": {
+                "allow": [
+                  "mcp__playwright__browser_navigate",
+                  "mcp__playwright__browser_console_messages",
+                  "mcp__playwright__browser_snapshot",
+                  "mcp__playwright__browser_click",
+                  "mcp__playwright__browser_take_screenshot",
+                  "mcp__playwright__browser_type",
+                  "mcp__playwright__browser_wait_for"
+                ]
+              }
+            }
 
