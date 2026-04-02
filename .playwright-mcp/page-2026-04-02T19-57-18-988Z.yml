@@ -1,0 +1,86 @@
+- generic:
+  - generic [active]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - navigation [ref=e6]:
+            - button "previous" [disabled] [ref=e7]:
+              - img "previous" [ref=e8]
+            - generic [ref=e10]:
+              - generic [ref=e11]: 1/
+              - text: "1"
+            - button "next" [disabled] [ref=e12]:
+              - img "next" [ref=e13]
+          - img
+        - generic [ref=e15]:
+          - link "Next.js 15.5.14 (outdated) Turbopack" [ref=e16] [cursor=pointer]:
+            - /url: https://nextjs.org/docs/messages/version-staleness
+            - img [ref=e17]
+            - generic "An outdated version detected (latest is 16.2.2), upgrade is highly recommended!" [ref=e19]: Next.js 15.5.14 (outdated)
+            - generic [ref=e20]: Turbopack
+          - img
+      - dialog "Build Error" [ref=e22]:
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - generic [ref=e27]:
+              - generic [ref=e29]: Build Error
+              - generic [ref=e30]:
+                - button "Copy Error Info" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+                - link "Go to related documentation" [ref=e34] [cursor=pointer]:
+                  - /url: https://nextjs.org/docs/messages/module-not-found
+                  - img [ref=e35]
+                - link "Learn more about enabling Node.js inspector for server code with Chrome DevTools" [ref=e37] [cursor=pointer]:
+                  - /url: https://nextjs.org/docs/app/building-your-application/configuring/debugging#server-side-code
+                  - img [ref=e38]
+            - paragraph [ref=e47]: "Module not found: Can't resolve '@ai-sdk/react'"
+          - generic [ref=e49]:
+            - generic [ref=e51]:
+              - img [ref=e53]
+              - generic [ref=e56]: ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx (9:1)
+              - button "Open in editor" [ref=e57] [cursor=pointer]:
+                - img [ref=e59]
+            - generic [ref=e62]:
+              - generic [ref=e63]: "Module not found: Can't resolve '@ai-sdk/react'"
+              - generic [ref=e64]: 7 |
+              - generic [ref=e65]: useEffect
+              - text: ","
+              - generic [ref=e66]: 8 |
+              - generic [ref=e67]: "}"
+              - text: from "react"; >
+              - generic [ref=e68]: 9 |
+              - text: import
+              - generic [ref=e69]: "{ useChat"
+              - text: as
+              - generic [ref=e70]: "useAIChat }"
+              - text: from "@ai-sdk/react";
+              - generic [ref=e71]: "|"
+              - text: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+              - generic [ref=e72]: 10 |
+              - text: import
+              - generic [ref=e73]: "{"
+              - text: Message
+              - generic [ref=e74]: "}"
+              - text: from "ai";
+              - generic [ref=e75]: 11 |
+              - text: import
+              - generic [ref=e76]: "{ useFileSystem }"
+              - text: from "./file-system-context";
+              - generic [ref=e77]: 12 |
+              - text: import
+              - generic [ref=e78]: "{ setHasAnonWork }"
+              - text: from "@/lib/anon-work-tracker";
+              - generic [ref=e79]:
+                - text: "Import traces: Client Component Browser: ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component Browser] ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component Browser] ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component] ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component] Client Component SSR: ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component SSR] ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component SSR] ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component] ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]"
+                - link "https://nextjs.org/docs/messages/module-not-found" [ref=e80] [cursor=pointer]:
+                  - /url: https://nextjs.org/docs/messages/module-not-found
+        - generic [ref=e81]:
+          - generic [ref=e82]: "1"
+          - generic [ref=e83]: "2"
+    - button "Open issues overlay" [ref=e90] [cursor=pointer]:
+      - img [ref=e92]
+      - generic [ref=e94]:
+        - generic [ref=e95]: "0"
+        - generic [ref=e96]: "1"
+      - generic [ref=e97]: Issue
+  - alert [ref=e98]

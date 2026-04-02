@@ -1,0 +1,109 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - generic [ref=e56]: Create a pricing card component with a title, price, list of features, and a CTA button
+            - img [ref=e59]
+          - generic [ref=e75]:
+            - img [ref=e78]
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - img [ref=e85]
+                - generic [ref=e88]: Creating App.jsx
+              - separator [ref=e89]
+              - generic [ref=e90]:
+                - paragraph [ref=e91]: "Done! Created a pricing card component with:"
+                - list [ref=e92]:
+                  - listitem [ref=e93]:
+                    - strong [ref=e94]: Title & description
+                    - text: at the top
+                  - listitem [ref=e95]:
+                    - strong [ref=e96]: Price display
+                    - text: with period
+                  - listitem [ref=e97]:
+                    - strong [ref=e98]: Feature list
+                    - text: with checkmark icons
+                  - listitem [ref=e99]:
+                    - strong [ref=e100]: CTA button
+                    - text: with hover effects
+                  - listitem [ref=e101]:
+                    - strong [ref=e102]: Highlighted variant
+                    - text: for featured plans (scaled up with gradient border)
+                  - listitem [ref=e103]: Dark theme with amber/orange accents for visual distinction
+                - paragraph [ref=e104]: The component is reusable and accepts props for customization. Two example cards are displayed showing both standard and highlighted states.
+        - generic [ref=e19]:
+          - textbox "Describe the React component you want to create..." [ref=e20]
+          - button [disabled] [ref=e21]:
+            - img [ref=e22]
+    - separator [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - tablist [ref=e30]:
+          - tab "Preview" [selected] [ref=e31]
+          - tab "Code" [ref=e32]
+        - generic [ref=e33]:
+          - button "Sign In" [ref=e34]
+          - button "Sign Up" [ref=e35]
+      - iframe [ref=e105]:
+        - generic [ref=f8e3]:
+          - generic [ref=f8e5]:
+            - generic [ref=f8e6]:
+              - heading "Professional" [level=3] [ref=f8e7]
+              - paragraph [ref=f8e8]: Perfect for growing teams
+            - generic [ref=f8e10]:
+              - generic [ref=f8e11]: $29
+              - generic [ref=f8e12]: /month
+            - list [ref=f8e13]:
+              - listitem [ref=f8e14]:
+                - img [ref=f8e15]
+                - generic [ref=f8e17]: Up to 10 team members
+              - listitem [ref=f8e18]:
+                - img [ref=f8e19]
+                - generic [ref=f8e21]: Advanced analytics dashboard
+              - listitem [ref=f8e22]:
+                - img [ref=f8e23]
+                - generic [ref=f8e25]: Priority email support
+              - listitem [ref=f8e26]:
+                - img [ref=f8e27]
+                - generic [ref=f8e29]: Custom integrations
+              - listitem [ref=f8e30]:
+                - img [ref=f8e31]
+                - generic [ref=f8e33]: API access
+              - listitem [ref=f8e34]:
+                - img [ref=f8e35]
+                - generic [ref=f8e37]: Monthly reports
+            - button "Get Started" [ref=f8e38] [cursor=pointer]
+          - generic [ref=f8e40]:
+            - generic [ref=f8e41]:
+              - heading "Enterprise" [level=3] [ref=f8e42]
+              - paragraph [ref=f8e43]: For large-scale operations
+            - generic [ref=f8e45]:
+              - generic [ref=f8e46]: $99
+              - generic [ref=f8e47]: /month
+            - list [ref=f8e48]:
+              - listitem [ref=f8e49]:
+                - img [ref=f8e50]
+                - generic [ref=f8e52]: Unlimited team members
+              - listitem [ref=f8e53]:
+                - img [ref=f8e54]
+                - generic [ref=f8e56]: Real-time analytics
+              - listitem [ref=f8e57]:
+                - img [ref=f8e58]
+                - generic [ref=f8e60]: 24/7 phone & email support
+              - listitem [ref=f8e61]:
+                - img [ref=f8e62]
+                - generic [ref=f8e64]: Custom integrations
+              - listitem [ref=f8e65]:
+                - img [ref=f8e66]
+                - generic [ref=f8e68]: Advanced API access
+              - listitem [ref=f8e69]:
+                - img [ref=f8e70]
+                - generic [ref=f8e72]: Weekly reports
+              - listitem [ref=f8e73]:
+                - img [ref=f8e74]
+                - generic [ref=f8e76]: Dedicated account manager
+            - button "Contact Sales" [ref=f8e77] [cursor=pointer]
+  - alert [ref=e46]

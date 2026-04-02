@@ -1,0 +1,378 @@
+[    5242ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[    5522ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/965e2_react-dom_b8feb92d._.js:14107
+[    5560ms] Error: ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx:9:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///Users/jzelaya/sandbox/anthropic_course/uigen/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:775:59)
+    at DevBundlerService.getCompilationError (file:///Users/jzelaya/sandbox/anthropic_course/uigen/node_modules/next/dist/server/lib/dev-bundler-service.js:39:55)
+    at DevServer.getCompilationError (file:///Users/jzelaya/sandbox/anthropic_course/uigen/node_modules/next/dist/server/dev/next-dev-server.js:721:42)
+    at DevServer.findPageComponents (file:///Users/jzelaya/sandbox/anthropic_course/uigen/node_modules/next/dist/server/dev/next-dev-server.js:691:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/jzelaya/sandbox/anthropic_course/uigen/node_modules/next/dist/server/base-server.js:1687:26)
+[    5558ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_c9e35418._.js:2207
+[    5561ms] [ERROR] ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/965e2_next_dist_7b04f7ea._.js:1747
+[    5589ms] [LOG] {file: Object} @ http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_next-devtools_index_51f60cbe.js:16058
+[    5668ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_c9e35418._.js:2495
+[    5851ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/favicon.ico:0
+[    5874ms] [ERROR] ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/965e2_next_dist_7b04f7ea._.js:1747
+[    7826ms] [ERROR] ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/965e2_next_dist_7b04f7ea._.js:1747
+[    7893ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_c9e35418._.js:2495
+[   40539ms] [ERROR] ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/965e2_next_dist_7b04f7ea._.js:1747
+[   40579ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_c9e35418._.js:2495
+[   40854ms] [ERROR] ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/965e2_next_dist_7b04f7ea._.js:1747
+[   40905ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_c9e35418._.js:2495
+[   74041ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_c9e35418._.js:2495
+[   74070ms] [ERROR] ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/965e2_next_dist_7b04f7ea._.js:1747
+[  116747ms] [ERROR] ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/965e2_next_dist_7b04f7ea._.js:1747
+[  116797ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_c9e35418._.js:2495
+[  117848ms] [ERROR] ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/965e2_next_dist_7b04f7ea._.js:1747
+[  117902ms] [ERROR] ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/965e2_next_dist_7b04f7ea._.js:1747
+[  117949ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_c9e35418._.js:2495
+[  167910ms] [ERROR] ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/965e2_next_dist_7b04f7ea._.js:1747
+[  167950ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_c9e35418._.js:2495
+[  168496ms] [ERROR] ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/965e2_next_dist_7b04f7ea._.js:1747
+[  168568ms] [ERROR] ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/965e2_next_dist_7b04f7ea._.js:1747
+[  168614ms] [ERROR] ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component Browser]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./sandbox/anthropic_course/uigen/src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Client Component SSR]
+    ./sandbox/anthropic_course/uigen/src/app/main-content.tsx [Server Component]
+    ./sandbox/anthropic_course/uigen/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/965e2_next_dist_7b04f7ea._.js:1747
+[  168683ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_c9e35418._.js:2495
+[  168814ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_c9e35418._.js:2495
+[  169767ms] [LOG] [Fast Refresh] done in 665ms @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_c9e35418._.js:2355
+[  170356ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  170481ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:14537
+[  170925ms] TypeError: Cannot read properties of undefined (reading 'trim')
+    at MessageInput (http://localhost:3000/_next/static/chunks/sandbox_anthropic_course_uigen_src_01175caa._.js:1361:51)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:13072:24)
+    at renderWithHooks (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:4091:24)
+    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:5523:21)
+    at beginWork (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:6111:24)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:886:74)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:8298:97)
+    at workLoopSync (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:8190:40)
+    at renderRootSync (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:8173:13)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:7932:56)
+    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:8882:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_4811967b._.js:2601:64)

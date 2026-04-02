@@ -1,0 +1,33 @@
+[     139ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[     193ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:14537
+[     413ms] TypeError: Cannot read properties of undefined (reading 'trim')
+    at MessageInput (http://localhost:3000/_next/static/chunks/sandbox_anthropic_course_uigen_src_01175caa._.js:1361:51)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:13072:24)
+    at renderWithHooks (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:4091:24)
+    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:5523:21)
+    at beginWork (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:6111:24)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:886:74)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:8298:97)
+    at workLoopSync (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:8190:40)
+    at renderRootSync (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:8173:13)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:7932:56)
+    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:8882:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_4811967b._.js:2601:64)
+[ 1994436ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_ed786e74._.js:5949
+[ 1994473ms] [LOG] [Fast Refresh] done in 139ms @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_ed786e74._.js:5809
+[ 2061913ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_ed786e74._.js:5949
+[ 2061936ms] [LOG] [Fast Refresh] done in 123ms @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_ed786e74._.js:5809
+[ 2070250ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_ed786e74._.js:5949
+[ 2072036ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_c8c997ce._.js:34
+[ 2072058ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_ed786e74._.js:6270
+[ 2072072ms] [LOG] [Fast Refresh] done in 1862ms @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_ed786e74._.js:5809
+[ 2072310ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_ed786e74._.js:5949
+[ 2072314ms] [LOG] [Fast Refresh] done in 106ms @ http://localhost:3000/_next/static/chunks/965e2_next_dist_client_ed786e74._.js:5809
+[ 2072859ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/965e2_next_dist_compiled_react-dom_949b0fcc._.js:14537
